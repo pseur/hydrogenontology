@@ -1,13 +1,35 @@
-concept,composed of
-electrolyzer system,stack
-electrolyzer system,balance of plant
-balance of plant,hydrogen cooling
-balance of plant,deionized water circulation
-balance of plant,hydrogenprocessing
-balance of plant,power supply
-balance of plant,ventilation and safety requirements
-stack,cell
-electrolyzer system,stack
-electrolyzer system,balance of plant
-balance of plant,hydrogen cooling
-balance of plant,deionized water circulation
+Words 1,Relation,Words 2
+electrolyzer system,composed of,stack
+electrolyzer system,composed of,balance of plant
+balance of plant,composed of,hydrogen cooling
+balance of plant,composed of,deionized water circulation
+balance of plant,composed of,hydrogenprocessing
+balance of plant,composed of,power supply
+balance of plant,composed of,ventilation and safety requirements
+stack,contained within,endplate
+stack,contained within,seal frame
+stack,contained within,bolts
+stack,composed of,cell
+cell,produces,product of electrolyzer reaction
+cell,separated by,bipolar plates
+produce of electrolyzer reation,composed of,oxygen
+produce of electrolyzer reation,composed of,hydrogen
+bipolar plates,reduce,pressure drop
+bipolar plates,must be,corrosion resistant
+cell,composed of,catalyst coated membrane
+catalyst coated membrane,is,membrane electrode assembly
+cell,composed of,porous transport layer
+porous transport layer,is,current generator
+product of electrolyzer reaction,move through,porous transport layer
+catalyst coated membrane,composed of,membrane
+membrane,is,proton conductive membrane
+product of electrolyzer reaction,separated by,membrane
+catalyst coated membrane,can be coated to,porous transport layer
+catalyst coated membrane,composed of,catalyst
+catalyst,is,electrode
+reactant water,move through,porous transport layer
+reactant water,supplied to,catalyst
+porous transport layer,composed of,cathode ptl
+porous transport layer,composed of,anode ptl
+anode ptl,must be,chemically stable
+anode ptl,must be,mechanically stable
